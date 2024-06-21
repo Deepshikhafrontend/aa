@@ -1,0 +1,72 @@
+.container {
+    max-width: 1200px;
+  }
+  
+  .highlight {
+    color: #f6c700;
+  }
+  
+  .card-header {
+    font-size: 1.25rem;
+    color: #f6c700;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .icon-opportunity:before { content: "💡"; }
+  .icon-trending:before { content: "📈"; }
+  .icon-demand:before { content: "⚙️"; }
+  .icon-ticket:before { content: "🎟️"; }
+  .icon-retention:before { content: "🔄"; }
+  .icon-repeat:before { content: "♻️"; }
+  .icon-festival:before { content: "📅"; }
+  .icon-socio-cultural:before { content: "🌍"; }
+  .icon-like:before { content: "⭐"; }
+  .icon-dislike:before { content: "✂️"; }
+  .icon-concern:before { content: "❓"; }
+  .icon-happy:before { content: "😊"; }
+  .icon-behaviour:before { content: "🧠"; }
+  .icon-bias:before { content: "🎯"; }
+  .icon-emotion:before { content: "❤️"; }
+  .icon-promo:before { content: "✉️"; }
+  .icon-message:before { content: "📤"; }
+  .icon-outcomes:before { content: "📊"; }
+  .icon-competitive:before { content: "📈"; }
+  
+  .insights-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    li {
+      font-size: 14px;
+    }
+  
+    .icon {
+      margin-right: 5px;
+      font-size: 18px;
+    }
+  
+    .insights-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  

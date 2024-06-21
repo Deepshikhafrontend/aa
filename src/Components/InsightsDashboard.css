@@ -1,0 +1,70 @@
+/* src/Components/InsightsDashboard.css */
+
+.container {
+    max-width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  .header .menu-icon i {
+    font-size: 1.5rem;
+  }
+  
+  .icons i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .insight-card {
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .insight-card h3 {
+    margin: 0;
+  }
+  
+  .feedback-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feedback-icons i {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .insight-post-card {
+    transition: transform 0.2s;
+  }
+  
+  .insight-post-card:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 576px) {
+    .icons i {
+      font-size: 1rem;
+      margin: 0 5px;
+    }
+  
+    .header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .header .menu-icon i {
+      font-size: 1rem;
+    }
+  }
+  
